@@ -1,0 +1,264 @@
+[
+  {
+    "id": "Q1",
+    "topic": "DevOps Culture",
+    "question": "What is the main goal of DevOps?",
+    "options": [
+      "To separate development and operations",
+      "To improve collaboration between teams",
+      "To stop using automation",
+      "To remove testing"
+    ],
+    "answerIndex": 1,
+    "explanation": "DevOps focuses on improving collaboration between development and operations teams."
+  },
+  {
+    "id": "Q2",
+    "topic": "DevOps Culture",
+    "question": "Which practice helps teams work together better?",
+    "options": [
+      "Working in isolation",
+      "Blaming failures",
+      "Continuous communication",
+      "Ignoring feedback"
+    ],
+    "answerIndex": 2,
+    "explanation": "Continuous communication improves teamwork and reduces misunderstandings."
+  },
+  {
+    "id": "Q3",
+    "topic": "Version Control",
+    "question": "What is Git mainly used for?",
+    "options": [
+      "Writing documents",
+      "Managing code versions",
+      "Designing websites",
+      "Sending emails"
+    ],
+    "answerIndex": 1,
+    "explanation": "Git is used to track and manage changes in source code."
+  },
+  {
+    "id": "Q4",
+    "topic": "Version Control",
+    "question": "What is a Git branch?",
+    "options": [
+      "A backup file",
+      "A copy of the whole computer",
+      "A separate line of development",
+      "A deleted file"
+    ],
+    "answerIndex": 2,
+    "explanation": "A branch allows developers to work on features separately."
+  },
+  {
+    "id": "Q5",
+    "topic": "Continuous Integration",
+    "question": "What happens in Continuous Integration?",
+    "options": [
+      "Code is tested and merged frequently",
+      "Code is never tested",
+      "Only managers write code",
+      "Updates happen once a year"
+    ],
+    "answerIndex": 0,
+    "explanation": "CI involves frequent code integration and automatic testing."
+  },
+  {
+    "id": "Q6",
+    "topic": "Continuous Integration",
+    "question": "Why is automated testing important in CI?",
+    "options": [
+      "It slows down development",
+      "It finds errors early",
+      "It deletes files",
+      "It stops deployment"
+    ],
+    "answerIndex": 1,
+    "explanation": "Automated tests help detect problems early in development."
+  },
+  {
+    "id": "Q7",
+    "topic": "Continuous Delivery",
+    "question": "What does Continuous Delivery mean?",
+    "options": [
+      "Software is always ready to be released",
+      "Software is never updated",
+      "Software is delivered once",
+      "Software is tested manually only"
+    ],
+    "answerIndex": 0,
+    "explanation": "Continuous Delivery keeps software ready for release at any time."
+  },
+  {
+    "id": "Q8",
+    "topic": "Continuous Delivery",
+    "question": "Which tool is commonly used in CD pipelines?",
+    "options": [
+      "Jenkins",
+      "Word",
+      "Paint",
+      "Calculator"
+    ],
+    "answerIndex": 0,
+    "explanation": "Jenkins is widely used for building and deploying software."
+  },
+  {
+    "id": "Q9",
+    "topic": "Infrastructure as Code",
+    "question": "What is Infrastructure as Code?",
+    "options": [
+      "Writing servers manually",
+      "Managing infrastructure using code",
+      "Buying more computers",
+      "Stopping automation"
+    ],
+    "answerIndex": 1,
+    "explanation": "IaC uses code to manage and configure infrastructure."
+  },
+  {
+    "id": "Q10",
+    "topic": "Infrastructure as Code",
+    "question": "Which tool is used for Infrastructure as Code?",
+    "options": [
+      "Terraform",
+      "Excel",
+      "Notepad",
+      "PowerPoint"
+    ],
+    "answerIndex": 0,
+    "explanation": "Terraform is commonly used for Infrastructure as Code."
+  },
+  
+  {
+    "id": "Q11",
+    "topic": "Version Control",
+    "question": "What is a Pull Request (PR) mainly used for?",
+    "options": [
+      "To delete a repository",
+      "To propose changes and get them reviewed",
+      "To rename a file automatically",
+      "To run the app faster"
+    ],
+    "answerIndex": 1,
+    "explanation": "A PR allows others to review and discuss changes before merging into main."
+  },
+  {
+    "id": "Q12",
+    "topic": "Version Control",
+    "question": "What does git commit do?",
+    "options": [
+      "Uploads files to the internet automatically",
+      "Saves a snapshot of changes with a message",
+      "Deletes all untracked files",
+      "Creates a new GitHub account"
+    ],
+    "answerIndex": 1,
+    "explanation": "A commit records a snapshot of your project at a point in time with a message."
+  },
+  {
+    "id": "Q13",
+    "topic": "Plan with DevOps",
+    "question": "Why do DevOps teams use a backlog (like issues or tasks)?",
+    "options": [
+      "To hide work from the team",
+      "To track and prioritize work",
+      "To stop collaboration",
+      "To avoid planning"
+    ],
+    "answerIndex": 1,
+    "explanation": "A backlog helps teams organize, prioritize, and track tasks clearly."
+  },
+  {
+    "id": "Q14",
+    "topic": "Plan with DevOps",
+    "question": "Which item is a common planning tool in DevOps projects?",
+    "options": [
+      "GitHub Issues",
+      "Photo editor",
+      "Calculator",
+      "Music player"
+    ],
+    "answerIndex": 0,
+    "explanation": "Tools like GitHub Issues are often used to plan and manage tasks in DevOps."
+  },
+  {
+    "id": "Q15",
+    "topic": "Continuous Integration",
+    "question": "What is a common benefit of CI?",
+    "options": [
+      "More merge conflicts",
+      "Faster feedback on code changes",
+      "Less communication",
+      "No need for a repository"
+    ],
+    "answerIndex": 1,
+    "explanation": "CI provides faster feedback by running builds and tests automatically."
+  },
+  {
+    "id": "Q16",
+    "topic": "Continuous Deployment",
+    "question": "What is Continuous Deployment?",
+    "options": [
+      "Every change that passes tests is deployed automatically",
+      "Deploying only once per semester",
+      "Deploying without any tests",
+      "Only deploying manually after long delays"
+    ],
+    "answerIndex": 0,
+    "explanation": "Continuous Deployment automatically deploys changes after they pass checks."
+  },
+  {
+    "id": "Q17",
+    "topic": "Infrastructure as Code",
+    "question": "Why is Infrastructure as Code useful?",
+    "options": [
+      "It makes infrastructure changes repeatable and consistent",
+      "It removes the need for version control",
+      "It stops automation",
+      "It forces manual setup every time"
+    ],
+    "answerIndex": 0,
+    "explanation": "IaC makes it easier to reproduce and manage infrastructure reliably."
+  },
+  {
+    "id": "Q18",
+    "topic": "DevOps Culture",
+    "question": "Which idea best matches DevOps culture?",
+    "options": [
+      "Blame people when something fails",
+      "Share responsibility and learn from failures",
+      "Avoid communication between teams",
+      "Only one person can deploy"
+    ],
+    "answerIndex": 1,
+    "explanation": "DevOps encourages shared responsibility and learning from incidents."
+  },
+  {
+    "id": "Q19",
+    "topic": "Continuous Delivery",
+    "question": "In Continuous Delivery, what must always happen before release?",
+    "options": [
+      "Skipping tests to save time",
+      "Manual coding on production server",
+      "Automated build and testing steps",
+      "Deleting the main branch"
+    ],
+    "answerIndex": 2,
+    "explanation": "CD relies on automated builds and tests to keep releases safe and reliable."
+  },
+  {
+    "id": "Q20",
+    "topic": "Version Control",
+    "question": "Why do teams use meaningful commit messages?",
+    "options": [
+      "To make Git run faster",
+      "To clearly explain what changed and why",
+      "To hide changes from others",
+      "To avoid collaboration"
+    ],
+    "answerIndex": 1,
+    "explanation": "Clear commit messages help others understand the project history and changes."
+  }
+
+]

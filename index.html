@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevOps Quiz App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>DevOps Quiz App</h1>
+
+    <section class="controls">
+      <label for="topicSelect">Choose a topic:</label>
+      <select id="topicSelect">
+        <option value="all">All Topics</option>
+      </select>
+      <button id="startBtn">Start Quiz</button>
+    </section>
+
+    <section id="quizArea" class="hidden">
+      <h2 id="topicTitle"></h2>
+      <p id="questionText"></p>
+
+      <div id="optionsArea"></div>
+
+      <div id="feedbackArea" class="feedback"></div>
+
+      <div class="nav">
+        <button id="nextBtn" class="hidden">Next</button>
+        <button id="restartBtn" class="hidden">Restart</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

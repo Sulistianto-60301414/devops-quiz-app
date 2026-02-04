@@ -10,3 +10,29 @@ Student 2
 •	Name: Kareem Abdalla
 •	Student 2 ID: 60302080
 •	Assigned Role: Student B
+
+## Question Format
+
+The quiz questions are stored in `data/questions.json` as an array of objects.
+Each question follows this structure:
+
+```json
+{
+  "id": "Q1",
+  "topic": "Continuous Integration",
+  "question": "What is the primary goal of Continuous Integration?",
+  "options": [
+    "Automatically deploy to production",
+    "Frequently integrate code changes into a shared repository",
+    "Eliminate the need for testing",
+    "Remove the need for branches"
+  ],
+  "answerIndex": 1,
+  "explanation": "Continuous Integration aims to detect integration issues early."
+}
+
+## Features
+- Topic selection dropdown
+- Shows one question at a time
+- Instant feedback (correct/wrong) with explanation
+- Next button to move through questions
