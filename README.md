@@ -32,7 +32,10 @@ Each question follows this structure:
 }
 
 ## Features
-- Topic selection (All topics or single topic)
-- Shows one question at a time with 4 options
-- Immediate feedback and explanation after answering
-- Next and Restart buttons for navigation
+- Topic selection dropdown (All topics or single topic)
+- Shows one question at a time
+- Instant feedback with explanation
+- Next and Restart buttons
+- 20+ DevOps questions stored in `data/questions.json`
+- Questions grouped by multiple DevOps topics (CI, CD, Version Control, DevOps Culture)
+- Each question includes options, 0-based answerIndex, and explanation
