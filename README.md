@@ -32,7 +32,7 @@ Each question follows this structure:
 }
 
 ## Features
-- Topic selection dropdown
-- Shows one question at a time
-- Instant feedback (correct/wrong) with explanation
-- Next button to move through questions
+- Topic selection (All topics or single topic)
+- Shows one question at a time with 4 options
+- Immediate feedback and explanation after answering
+- Next and Restart buttons for navigation
