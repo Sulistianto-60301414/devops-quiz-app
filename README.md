@@ -31,3 +31,8 @@ Each question follows this structure:
   "explanation": "Continuous Integration aims to detect integration issues early."
 }
 
+## Features
+- Topic selection dropdown
+- Shows one question at a time
+- Instant feedback (correct/wrong) with explanation
+- Next button to move through questions
